@@ -1,0 +1,306 @@
+body
+{
+    margin: 0;
+}
+body {
+    background-color: rgb(46, 42, 42);
+    margin-top: 0
+}
+
+.topMenu ul {
+    padding: 0px;
+    height: 40px;
+    line-height: 30px;
+    background-color: grey;
+    text-align: center;
+}
+
+.topMenu li {
+    width: 100px;
+    margin: 0 40px;
+    padding: 10px 2;
+    cursor: pointer;
+    color: none;
+    display: inline-block;
+    transition: 1.5s;
+}
+
+    .topMenu li:hover {
+        background-color: rgb(134, 85, 85);
+        box-shadow: 0 0 120px 0px rgb(192, 84, 84);
+        padding: 5px 0;
+    }
+
+.topMenu a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.home
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+}
+h1
+{
+    color:red;
+    font-size: 35px;
+    font-weight: 600;
+}
+p
+{
+    color: #9c4545;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px;
+
+}
+.row
+{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.home-col
+{
+    flex-basis: 31%;
+    background: grey;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h2
+{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+
+}
+.home-col:hover
+{
+    box-shadow: 0 0 120px 0px rgb(192, 84, 84);
+}
+.ForUS {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .bottom ul {
+    padding: 0px;
+    height: 60px;
+    line-height: 30px;
+    background-color: grey;
+    text-align: center;
+}
+
+.bottom li {
+    width: 100px;
+    margin: 0 10px;
+    padding: 100px 2;
+    cursor: pointer;
+    color: none;
+    display: inline-block;
+    transition: 1.5s;
+}
+
+    .bottom li:hover {
+        background-color: rgb(134, 85, 85);
+        box-shadow: 0 0 120px 0px rgb(192, 84, 84);
+        padding: 2px 0;
+    }
+
+.bottom a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.PersonsList {
+    background-color: rgb(31, 31, 29);
+    padding: 5px;
+    width: 260px;
+    font-size: 20px;
+    box-shadow: 0 0 10px 2px #ff0000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .PersonsList ol {
+        margin: 12px;
+    }
+
+.PersonsTable td {
+    text-align: center;
+}
+
+.PersonsTable th {
+    text-align: center;
+    background-color: beige;
+}
+
+.PersonsTable table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.PersonsTable table, th, td {
+    border: 2px solid;
+    padding: 5px;
+    border-spacing: 10px;
+}
+
+.PersonsTable th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(134, 88, 88);
+}
+
+.PersonsTable tr:nth-child(even) {
+    background-color: #879e80;
+}
+
+.PersonsTable tr:nth-child(odd) {
+    background-color: rgb(100, 155, 114);
+}
+
+.PersonsTable tr:hover {
+    background-color: #8d6f6f;
+}
+.PersonImage {
+    margin-left: 60px;  
+    border-radius: 5%;
+    margin-top: 20px;   
+    border: 1px solid black;
+    box-shadow: 0 0 10px 2px #333333;
+    transition: 1s;
+}
+.PersonImage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.PersonImage img {
+        margin-top: 50px;
+        width: 470px;
+        height: 500px;
+        border: 3px solid rgb(97, 3, 3);
+       
+        box-shadow: 0 0 120px 0px rgb(192, 84, 84);
+        border-radius: 3%;
+}
+.QuestionsS {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(184, 120, 120);
+    justify-content: center;
+    border-radius: 20px;
+    transition: 3s;
+}
+.QuestionsS :hover
+{
+    box-shadow: 0 0 20px 0px rgb(240, 47, 47);
+}
+.ContactUsForm fieldset {
+    width: 30%;
+}
+
+.ContactUsForm input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+.ContactUsForm input[type=submit] {
+    background-color: rgb(255, 30, 30);
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: 420px;
+}
+
+.ContactUsForm [type=submit]:hover {
+    background-color: rgb(158, 111, 111)
+}
+
+.ContactUsForm fieldset {
+    font-family: cursive;
+    font-weight: 400;
+    border-radius: 15px;
+    background-color: #a88383;
+    padding: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(4px);
+}
+
+.ContactUsForm legend {
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 500;
+}
+.search
+{
+    width: 300px;
+    float: left;
+    margin: left;
+}
+.srch 
+{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-top: 13px;
+    color: #ac4e4e;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 2% 10%;
+    border-bottom-left-radius:5px ;
+    border-top-left-radius: 5px;
+}
+.btn
+{
+width: 100px;
+height: 40px;
+background: #fff;
+border:2px solid #777;
+margin-top: 13px;
+color: #ac4e4e;
+font-size: 20px;
+border-bottom-right-radius: 10px;
+transition: 1s;
+}
+.btn:hover
+{
+    transform: scale(1.1);
+    background: #fff;
+    border: 2px solid #fff;
+    color: #777;
+}
+.btn:focus
+{
+    outline: none;
+
+}
+.srch :focus
+{
+    outline: none;
+}
